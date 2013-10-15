@@ -1,6 +1,6 @@
 {
   "name": "utm_parse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse UTM query string into hidden inputs for a form",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "TJ Krusinski",
   "license": "BSD",
   "devDependencies": {
-    "chai": "~1.8.1"
+    "chai": "~1.8.1",
+    "mocha": "~1.13.0"
   }
 }
