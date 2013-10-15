@@ -2,7 +2,7 @@
 
 Parse UTM parameters out of a url or querystring and create html inputs.
 
-[![Build Status](https://travis-ci.org/TJkrusinski/parse_utm.png?branch=master)](https://travis-ci.org/TJkrusinski/parse_utm)
+[![Build Status](https://travis-ci.org/TJkrusinski/utm_parse.png?branch=master)](https://travis-ci.org/TJkrusinski/utm_parse)
 
 ## Examples
 
