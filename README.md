@@ -15,10 +15,10 @@ utm.parse('http://google.com/search?utm_source=lkjsdf');
 app.get('/landingpage?querystring',
 	utm.middleware,
 	function(req, res){
-		// inputs available at 
+		// inputs available at req.queryUTM
 
 		res.render('landingpage', {
-			utminputs: res.queryUTM
+			utminputs: req.queryUTM
 		});
 	});
 
